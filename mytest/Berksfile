@@ -1,0 +1,7 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'aws', '= 2.5.0'
+cookbook 'nscd', git: 'https://github.com/zaraziel/test1.git', rel: 'nscd'
+cookbook 'java', git: 'https://github.com/zaraziel/test1.git', rel: 'java'
